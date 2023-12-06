@@ -2,7 +2,38 @@
 <html>
     <head>
         <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">    
     </head>
-    <body>        
+
+    <body>
+        <section class="w-[100%] h-[100vh] bg-[url('./Images/pexels-backgroung.jpg')] bg-center bg-cover">
+            <div class="w-[100%] h-[100vh] bg-[rgba(0,0,0,0.3)]">
+                <navbar class="mx-auto pt-[10px] pl-[10px] flex">
+                    <div class="h-[100%] w-[100%] flex items-center">
+                        <figure>
+                            <img src="./Images/Logo_1.png" class="w-[50px] rounded-[50px]" alt="">
+                        </figure>                    
+                        <div class="flex justify-end gap-[10px] w-[100%]">
+                                <ul class="text-white pr-[90px] flex gap-[40px]">
+                                    <li class="cursor-pointer font-semibold p-[4px]">Home</li>
+                                    <li class="cursor-pointer font-semibold p-[4px]">About us</li>
+                                    <li class="cursor-pointer font-semibold p-[4px]">Contact us</li>
+                                    <li class="cursor-pointer font-semibold p-[4px]">Login</li>
+                                </ul>                
+                        </div>
+                    </div>
+                </navbar>
+                <div class="flex items-center justify-center h-screen">
+                    <div class="text-center text-white p-8">
+                            <h1 class="text-xl font-bold">This is Free Simple Website Template</h1>                            
+                            <p class="text-lg mt-[10px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, perferendis similique consectetur obcaecati deleniti quae 
+                            eum dolore autem fuga qui laudantium ipsam minima cupiditate temporibus ab, nisi, sequi omnis. Amet!</p>
+                            <button class="border-[2px] p-2 cursor-pointer font-serif rounded-[50px] font-bold">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
     </body>
 </html>
